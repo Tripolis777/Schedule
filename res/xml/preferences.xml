@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <ListPreference android:title="Курс" android:entryValues="@array/classvalues_list" android:entries="@array/class_list" android:key="list_class" android:defaultValue="2"/>
+    <ListPreference android:title="Группа" android:entryValues="@array/groupvalues_list" android:entries="@array/group_list" android:key="list_group" android:defaultValue="2"/>
+    <CheckBoxPreference android:key="auto_update" android:summary="Автообновление расписания" android:title="Обновление" android:defaultValue="false"/>
+    
+
+</PreferenceScreen>

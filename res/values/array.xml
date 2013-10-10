@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="class_list">
+        <item>Первый курс</item>
+        <item>Второй курс</item>
+		<item>Третий курс</item>
+		<item>Четвертый курс</item>
+		<item>Пятый курс</item>
+    </string-array>
+     <string-array name="classvalues_list">
+        <item>1</item>
+        <item>2</item>
+		<item>3</item>
+		<item>4</item>
+		<item>5</item>
+    </string-array>
+    <string-array name="group_list">
+        <item>Первая</item>
+        <item>Вторая</item>
+		<item>Третья</item>
+    </string-array>
+    <string-array name="groupvalues_list">
+        <item>1</item>
+        <item>2</item>
+		<item>3</item>
+    </string-array>
+</resources>

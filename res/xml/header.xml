@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+ xmlns:android="http://schemas.android.com/apk/res/android">
+<header
+ android:fragment="ru.itmat.shedule.ChoiceGroup"
+ android:summary="@string/header_summary1"
+ android:title="@string/header_title1">
+</header>
+<header
+ android:fragment="ru.itmat.shedule.InfoFragment"
+ android:summary="@string/header_summary2"
+ android:title="@string/header_title2">
+</header>
+</preference-headers>
