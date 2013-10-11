@@ -70,7 +70,7 @@ public class AppService extends Service {
 		String KEY_CLASS = "list_class";
 		String KEY_GROUP = "list_group";
 		String TAG_SCHEDULE = "shedule";
-		String URL = "http://itmat.net/schedule/it/";
+		String URL = "http://itmat.net/sched/it/";
 		
 		public void run(){
 			if(!Online()) return;
@@ -87,7 +87,7 @@ public class AppService extends Service {
 				ed.putString(TAG_SCHEDULE, result);
 				ed.commit();
 				NotificationClass n = NotificationClass.getInstance(context);
-				n.createInfoNotification("Расписание вашей группы было изменено.");
+				n.createInfoNotification("пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.");
 			}
 		}
 		
